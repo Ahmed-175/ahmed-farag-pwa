@@ -52,7 +52,7 @@ function Profile() {
         <h2> جامعة العلوم بالاسكندرية</h2>
         <img src={uni}  className='img-project' />
         <p>لقد طلبه مني احد في هذه الجامعة الموقع فكرته عرض مسارات و الاقسام الخاصة بي الجامعة و لكنه مازال في مرحلة البرمجة ولم ينهي بعد</p>
-              <a href="https://github.com/Ahmed-175/University-of-Science" target='_black' className="btn-project">عرض أكواد الموقع</a>
+              <a href="https://university-of-science.onrender.com" target='_black' className="btn-project">عرض الموقع</a>
 
       </div>
 
