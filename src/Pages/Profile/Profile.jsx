@@ -30,7 +30,7 @@ function Profile() {
         <h2>الموقع الشخصي القديم</h2>
         <img src={old}  className='img-project' />
         <p>هذا اول موقع شخصي قمت بصناعته في اعرض المشاريع الخاص بي</p>
-        <a href="https://github.com/Ahmed-175/old-profile" target='_black' className="btn-project">عرض أكواد الموقع</a>
+        <a href="https://old-profile-ahmed-farag.onrender.com" target='_black' className="btn-project">عرض الموقع</a>
 
       </div>
 
