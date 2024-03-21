@@ -6,6 +6,7 @@ import uni from './univ.jpg';
 import old from './oldprofile.jpg';
 import chess from './chess.jpg';
 import newpro from './newprofile.jpg';
+import todos from './todos.jpg'
 
 function Profile() {
   return (
@@ -48,11 +49,23 @@ function Profile() {
                 <a href="/" target='_black' className="btn-project">عرض الموقع</a>
 
       </div>
+
+
       <div className="projects">
         <h2> جامعة العلوم بالاسكندرية</h2>
         <img src={uni}  className='img-project' />
         <p>لقد طلبه مني احد في هذه الجامعة الموقع فكرته عرض مسارات و الاقسام الخاصة بي الجامعة و لكنه مازال في مرحلة البرمجة ولم ينهي بعد</p>
               <a href="https://university-of-science.onrender.com" target='_black' className="btn-project">عرض الموقع</a>
+
+      </div>
+
+
+
+      <div className="projects">
+        <h2>موقع للمهام اليومية</h2>
+        <img src={todos}  className='img-project' />
+        <p>هو موقع معتمد علي فكرة تخزين المعلومات في قواعد البيانات و استدعاها في الصفحة </p>
+              <a href="https://github.com/Ahmed-175/todos" target='_black' className="btn-project">عرض أكواد الموقع</a>
 
       </div>
 
